@@ -4,14 +4,14 @@ window=tkinter.Tk()
 window.title("BMI Calculator")
 window.minsize(width=300,height=300)
 
-label1=tkinter.Label(text="Enter your weight")
+label1=tkinter.Label(text="Enter your weight(kg)")
 label1.config(pady=7, padx=7)
 label1.pack()
 
 weight=tkinter.Entry()
 weight.pack()
 
-label2=tkinter.Label(text="Enter your height")
+label2=tkinter.Label(text="Enter your height(cm)")
 label2.pack()
 
 height=tkinter.Entry()
